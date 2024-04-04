@@ -1,0 +1,6 @@
+@ScheduleSystem.API_HostAddress = http://localhost:5040
+
+GET {{ScheduleSystem.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
