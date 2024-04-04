@@ -1,0 +1,62 @@
+# Загальні файли та директорії, які слід ігнорувати
+
+## Тимчасові файли, які можуть бути створені під час компіляції
+bin/
+obj/
+out/
+
+## Файли журналів
+*.log
+
+## Файли та директорії Visual Studio Code
+.vscode/
+
+## Каталоги та файли Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Каталоги та файли ReSharper
+_ReSharper*/
+*ReSharper*
+
+## Каталоги та файли Rider
+.idea/
+
+## Каталоги Build результатів
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Файли та директорії NuGet
+*.nupkg
+*.snupkg
+*.nuget.targets
+*.nuget.props
+packages/
+global.json
+nuget.config
+
+## Файли пакетів NPM
+node_modules/
+
+## Файли сертифікатів
+*.pfx
+*.cert
+
+## Файли конфігурації та тимчасові файли
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+## Інші файли та директорії, які слід ігнорувати
+.DS_Store
+Thumbs.db
+[Rr]elease/
+[Dd]ebug/
+*.swp
+*~
+
